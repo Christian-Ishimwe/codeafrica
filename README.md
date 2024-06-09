@@ -70,19 +70,19 @@ This function transforms a given string based on its length
 2. Open the folder within the Vs code
 3. open the terminal, ``` node stringTransform.js```
 4. After this, ypu would see the output depending 
-    on  provided data: ```
-        
-const text = "Hamburger";
-const transformedText = stringTransform(text);
-console.log(transformedText); // Output: "regrubmaH"
-
-const text2 = "Pizza";
-const transformedText2 = stringTransform(text2);
-console.log(transformedText2); // Output: "80 105 122 122 97"
-
-const text3 = "Chocolate Chip Cookie";
-const transformedText3 = stringTransform(text3);
-console.log(transformedText3); // Output: "eikooCpihCetalocohC"
-    ```
+    on  provided data:
+   ```
+    const text = "Hamburger";
+    const transformedText = stringTransform(text);
+    console.log(transformedText); // Output: "regrubmaH"
+    
+    const text2 = "Pizza";
+    const transformedText2 = stringTransform(text2);
+    console.log(transformedText2); // Output: "80 105 122 122 97"
+    
+    const text3 = "Chocolate Chip Cookie";
+    const transformedText3 = stringTransform(text3);
+    console.log(transformedText3); // Output: "eikooCpihCetalocohC"
+```
 
 
